@@ -167,7 +167,7 @@ def main():
     print("Sipariş Verdiğiniz İçin Teşekkürler!")
     print("Pizza Maliyetiniz: ₺", pizza.get_cost())
 
-#Sipariş Bilgi Kartı oluşturuyoruz.
+#Sipariş Bilgileri oluşturuyoruz.
     print("Sipariş Bilgileri")
     name = input("Lütfen İsminizi Girin: ")
     id_number = input("Lütfen TC kimliğinizi Girin : ")
@@ -175,10 +175,11 @@ def main():
     card_password = input("Lütfen Kart Şifrenizi Girin: ")
 
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
+    #Orders_Database.csv dosyasına sipariş bilgilerini yazar    
     with open("Orders_Database.csv", mode="a", newline="") as file:
         writer = csv.writer(file)
         writer.writerow([pizza.get_description(), name, id_number, card_number, current_time, card_password])
-        
+
+# Ana fonksiyonu çağırır           
 if __name__ == "__main__":
     main()
