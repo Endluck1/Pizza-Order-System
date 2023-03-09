@@ -1,0 +1,13 @@
+* Lutfen Bir Pizza Tabani Seciniz:
+1: Klasik - 8.99	
+2: Margarita - 9.99
+3: TurkPizza - 10.99	
+4: Sade Pizza - 6.99
+* ve sececeginiz sos:
+11: Zeytin - 1.99
+12: Mantarlar - 2.99
+13: Keci Peyniri - 3.99
+14: Et - 6.99
+15: Sogan - 0.99
+16: Misir - 3.99
+* Tesekkur ederiz!
