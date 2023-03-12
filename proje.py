@@ -162,7 +162,6 @@ def main():
         pizza = Mısır(pizza)
      else:
         print("Geçersiz Seçim, Lütfen Tekrar Deneyin.")
-     return
 
     print("Sipariş Verdiğiniz İçin Teşekkürler!")
     print("Pizza Maliyetiniz: ₺", pizza.get_cost())
