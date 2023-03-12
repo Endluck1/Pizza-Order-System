@@ -132,8 +132,7 @@ def main():
         pizza = SadePizza()
         break
      else:
-        print("Geçersiz Seçim, Lütfen Tekrar Deneyin.")
-        
+        print("Geçersiz Seçim, Lütfen Tekrar Deneyin.")      
      
     while True:
    
