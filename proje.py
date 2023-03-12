@@ -1,4 +1,4 @@
-#gerekl kitaplıkları içeri aktarma
+#gerekli kitaplıkları içeri aktarma
 import csv
 import datetime
 
